@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simon/memory game</title>
+    <script  src="simon.js" defer></script>
+    <style>
+        body{
+            text-align: center;
+        }
+        .btn{
+            height: 200px;
+            width: 200px;
+            border-radius: 20%;
+            border: 10px solid black;
+            margin: 2rem;
+        }
+        .btn-container{
+            display: flex;
+            justify-content: center;
+        }
+        .red{
+            background-color: red;
+        }
+        .yellow{
+            background-color:yellow;
+        }
+        .green{
+            background-color: green;
+        }
+        .purple{
+            background-color: purple;
+        }
+        .gameflash{
+            background-color: white;
+        }
+        .userflash{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simon/memory game</h1>
+    <h2>press any key to start game</h2>
+    <div class="btn-container">
+       <div class="line"> 
+        <!-- type=button, to make them clickable -->
+        <div class="btn red" type="button" id="red">1</div>                  
+        <div class="btn yellow" type="button" id="yellow">2</div>
+       </div>
+       <div class="line">
+        <div class="btn green" type="button" id="green">3</div>
+        <div class="btn purple" type="button" id="purple">4</div>
+       </div>
+    </div>
+</body>
+</html>
