@@ -1,2 +1,2 @@
 # Simon
-This project is software virsion of simon game with levels where user and bot can play
+This project is software version of simon game with levels where user and bot can play
